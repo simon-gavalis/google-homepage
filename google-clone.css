@@ -28,7 +28,18 @@ ul{
     cursor: pointer;
 }
 
+.google-img{
+    width: 300px;
+    height: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* margin-top: -150px;
+    margin-left: -150px; */
+    transform: translate(-50%, -160%);
+ 
 
+}
 
 
 
