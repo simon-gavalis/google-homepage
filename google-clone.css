@@ -1,0 +1,40 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    /* background-color: teal; */
+    display: flex;
+    justify-content:right;
+
+}
+
+.navigation-section li{
+    padding: 10px;
+}
+
+.navigation-section button{
+    padding: 6px 17px;
+    background-color: rgb(35, 103, 204);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
