@@ -2,7 +2,7 @@ body{
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-ul{
+.navigation-section ul{
     list-style-type: none;
     position: fixed;
     top: 0;
@@ -31,15 +31,87 @@ ul{
 .google-img{
     width: 300px;
     height: 100px;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
-    /* margin-top: -150px;
-    margin-left: -150px; */
-    transform: translate(-50%, -160%);
+    margin-top: -150px;
+    margin-left: -140px;
+    /* transform: translate(-50%, -160%); */
  
 
 }
+
+
+.searchContainer {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* display: inline-flex; */
+    flex-direction: row-reverse;
+
+}
+
+.searchBar{
+    width:100%;
+    border: 1px solid #dbdbdb;
+    border-radius: 30px;
+    height: 35px;
+    padding: 5px;
+    outline: none;
+    /* flex: 1; */
+}
+
+.searchButton{
+    width: 0%;
+    transform: translate(15px, -35px);
+    color: gray;
+    cursor: pointer;
+
+}
+
+.buttonsWrapper{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 150%);
+}
+
+.buttonsWrapper button{
+    padding: 10px;
+    margin-right: 20px;
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.buttonsWrapper button:hover{
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+}
+
+.footerWrapper{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: bisque;
+
+}
+
+
+.footerWrapper ul{
+    list-style-type: none;
+    display: flex;
+    /* justify-content: space-between; */
+  
+    
+}
+
 
 
 
